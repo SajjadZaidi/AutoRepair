@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<patch>
+<operation generation="2" line="148" location="org.apache.commons.math.distribution.FDistributionImpl" type="InsertBeforeOp">
+<original>return ret</original><modified scope="LOCAL">ret = 0.0</modified></operation></patch>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.jsoup.nodes.ElementTest" time="0.023" tests="83" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/sajjad/Desktop/astor-master/examples/jsoup2"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/sajjad/Desktop/astor-master/examples/jsoup2"/>
+    <property name="java.runtime.version" value="1.8.0_131-8u131-b11-0ubuntu1.16.10.2-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.8.0-59-generic"/>
+    <property name="user.home" value="/home/sajjad"/>
+    <property name="user.timezone" value="America/Edmonton"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="sajjad"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean compile test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testFormatOutline" classname="org.jsoup.nodes.ElementTest" time="0.004"/>
+  <testcase name="parentlessToString" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="insertChildrenArgumentValidation" classname="org.jsoup.nodes.ElementTest" time="0.001"/>
+  <testcase name="testPrependElement" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testOuterHtml" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testHashcodeIsStableWithContentChanges" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="elementByTagName" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testClonesClassnames" classname="org.jsoup.nodes.ElementTest" time="0.001"/>
+  <testcase name="appendMustCorrectlyMoveChildrenInsideOneParentElement" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="before" classname="org.jsoup.nodes.ElementTest" time="0.002"/>
+  <testcase name="testRemoveBeforeIndex" classname="org.jsoup.nodes.ElementTest" time="0.001"/>
+  <testcase name="testChainedRemoveAttributes" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testAddNewHtml" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testAddNewText" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testGetElementById" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testClone" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testHtmlContainsOuter" classname="org.jsoup.nodes.ElementTest" time="0.001"/>
+  <testcase name="testClassDomMethods" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testWrap" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testNamespacedElements" classname="org.jsoup.nodes.ElementTest" time="0.001"/>
+  <testcase name="testClassNames" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testElementSiblingIndex" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testIs" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testEmptyElementFormatHtml" classname="org.jsoup.nodes.ElementTest" time="0.001"/>
+  <testcase name="testLoopedRemoveAttributes" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testShadowElementsAreUpdated" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testGetElementsWithAttribute" classname="org.jsoup.nodes.ElementTest" time="0.001"/>
+  <testcase name="testNoIndentOnScriptAndStyle" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testAppendRowToTable" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testGetElementsWithClass" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testWrapWithRemainder" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testKeepsPreTextInCode" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testHasClassDomMethods" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testGetParents" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testGetText" classname="org.jsoup.nodes.ElementTest" time="0.001"/>
+  <testcase name="getElementsByTagName" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testFormatHtml" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testGetElementsWithAttributeValue" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testGetElementsWithAttributeDash" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testManipulateTextNodes" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testChildThrowsIndexOutOfBoundsOnMissing" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testPrependRowToTable" classname="org.jsoup.nodes.ElementTest" time="0.001"/>
+  <testcase name="testGetTextNodes" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="after" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testContainerOutput" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testInnerHtml" classname="org.jsoup.nodes.ElementTest" time="0.001"/>
+  <testcase name="testHasText" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testGetDataNodes" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testCssPath" classname="org.jsoup.nodes.ElementTest" time="0.001"/>
+  <testcase name="testSetHtmlTitle" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testChildrenElements" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="moveByAppend" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testNormalisesText" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testClassUpdates" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testAddNewElement" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testHashAndEqualsAndValue" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testElementSiblingIndexSameContent" classname="org.jsoup.nodes.ElementTest" time="0.001"/>
+  <testcase name="testGetChildText" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testRelativeUrls" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testSetIndent" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testThrowsOnAddNullText" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testGetSiblingsWithDuplicateContent" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="insertChildrenAsCopy" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testTagNameSet" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="dataset" classname="org.jsoup.nodes.ElementTest" time="0.001"/>
+  <testcase name="testPrependText" classname="org.jsoup.nodes.ElementTest" time="0.001"/>
+  <testcase name="testNormalizesNbspInText" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testRemoveAfterIndex" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testThrowsOnPrependNullText" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testGetSiblings" classname="org.jsoup.nodes.ElementTest" time="0.001"/>
+  <testcase name="testSetHtml" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testSetText" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testAddBooleanAttribute" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="whiteSpaceClassElement" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="classNamesAndAttributeNameIsCaseInsensitive" classname="org.jsoup.nodes.ElementTest" time="0.001"/>
+  <testcase name="testPrependNewHtml" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testBrHasSpace" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testKeepsPreText" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testNotPretty" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="testAppendTo" classname="org.jsoup.nodes.ElementTest" time="0.001"/>
+  <testcase name="getNamespacedElementsByTag" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="insertChildrenAtPosition" classname="org.jsoup.nodes.ElementTest" time="0"/>
+  <testcase name="elementIsNotASiblingOfItself" classname="org.jsoup.nodes.ElementTest" time="0"/>
+</testsuite>

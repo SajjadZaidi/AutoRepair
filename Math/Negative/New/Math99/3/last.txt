@@ -1,0 +1,20 @@
+--Child created id: 244
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:504) - --Creating new operations for variant [Variant id: 244, #gens: 29, #ops: 0, parent:204]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:517) - ---analyzing modificationPoint position: 9
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:540) - operation RemoveOp: `u = -u ` ---> `-` at pos 0 of parent `{ 	u = -u; }`
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:562) - 
+--Summary Creation: for variant [Variant id: 244, #gens: 28, #ops: 1, parent:204] gen mutated: 1 , gen not mut: 0, gen not applied  0
+ 
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.processCreatedVariant(AstorCoreEngine.java:382) - 
+-Saving child on disk variant #244 at /home/sajjad/Desktop/astor-master/./outputMutation/AstorMain-math_99//src//variant-244
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.processCreatedVariant(AstorCoreEngine.java:390) - -The child compiles: id 244
+[DEBUG] fr.inria.astor.core.validation.validators.ProcessValidator.validate(ProcessValidator.java:64) - -Running first validation
+[DEBUG] fr.inria.astor.core.validation.executors.JUnitExecutorProcess.printCommandToExecute(JUnitExecutorProcess.java:140) - Executing process: 
+/usr/lib/jvm/java-8-openjdk-amd64/bin/java  -Xmx2048m  -cp  /home/sajjad/Desktop/astor-master/./lib/jtestex-0.0.1.jar:/home/sajjad/Desktop/astor-master/./outputMutation/AstorMain-math_99/bin/variant-244/:/home/sajjad/Desktop/astor-master/./examples/libs/junit-4.4.jar:/home/sajjad/Desktop/astor-master/./outputMutation/AstorMain-math_99/bin/default/:/home/sajjad/Desktop/astor-master/astor.jar:  JUnitExternalExecutor  org.apache.commons.math.util.MathUtilsTest
+[DEBUG] fr.inria.astor.core.validation.executors.JUnitExecutorProcess.execute(JUnitExecutorProcess.java:77) - Execution time 120 seconds
+[DEBUG] fr.inria.astor.core.validation.executors.JUnitExecutorProcess.execute(JUnitExecutorProcess.java:80) - Running Exit Value
+[INFO ] fr.inria.astor.core.validation.executors.JUnitExecutorProcess.execute(JUnitExecutorProcess.java:90) - The Process that runs JUnit test cases had problems: process hasn't exited
+[DEBUG] fr.inria.astor.core.validation.validators.ProcessValidator.validate(ProcessValidator.java:79) - **The validation 1 have not finished well**
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.processCreatedVariant(AstorCoreEngine.java:395) - -Valid?: false, fitness 2.0
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.undoSingleGeneration(AstorCoreEngine.java:487) - ---Undoing: gnrtn(5): RemoveOp: `u = -u ` ---> `-` at pos 0 of parent `{ }`
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.prepareNextGeneration(AstorCoreEngine.java:284) - 

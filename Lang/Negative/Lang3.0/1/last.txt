@@ -1,0 +1,19 @@
+*-Parent Variant: [Variant id: 409, #gens: 15, #ops: 0, parent:-]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.createNewProgramVariant(AstorCoreEngine.java:436) - 
+--Child created id: 449
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:504) - --Creating new operations for variant [Variant id: 449, #gens: 15, #ops: 0, parent:409]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:517) - ---analyzing modificationPoint position: 9
+[DEBUG] fr.inria.astor.core.loop.spaces.ingredients.ingredientSearch.EfficientIngredientStrategy.getFixIngredient(EfficientIngredientStrategy.java:90) - --- no mutation left to apply in element return (java.util.List#toArray(T[])(java.lang.reflect.Array org.apache.commons.lang3.event.EventListenerSupport#prototypeArray))
+[DEBUG] fr.inria.astor.approaches.jgenprog.JGenProg.createOperatorInstanceForPoint(JGenProg.java:230) - Any ingredient for this point, we discard it
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:553) - ---modifPoint 0 not mutation generated in  return (java.util.List#to[...]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:517) - ---analyzing modificationPoint position: 8
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:540) - operation InsertBeforeOp: `return true ` ---> `return null` at pos 3 of parent `{ 	if (cs == null) { 		re[...]`
+[DEBUG] fr.inria.astor.core.loop.spaces.operators.AstorOperator.addPoint(AstorOperator.java:108) - ---ModificPoint=StringUtils line: 5300, el: CtReturnImpl
+[DEBUG] fr.inria.astor.core.loop.spaces.operators.AstorOperator.addPoint(AstorOperator.java:109) - ---InsertBeforeOp: `return true ` ---> `return null` at pos 3 of parent `{ 	if (cs == null) { 		re[...]`
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:562) - 
+--Summary Creation: for variant [Variant id: 449, #gens: 16, #ops: 1, parent:409] gen mutated: 1 , gen not mut: 1, gen not applied  0
+ 
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.processCreatedVariant(AstorCoreEngine.java:382) - 
+-Saving child on disk variant #449 at /home/sajjad/Desktop/astor-master/./outputMutation/AstorMain-Lang428//src//variant-449
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.undoSingleGeneration(AstorCoreEngine.java:487) - ---Undoing: gnrtn(10): InsertBeforeOp: `return true ` ---> `return null` at pos 3 of parent `{ 	if (cs == null) { 		re[...]`
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.prepareNextGeneration(AstorCoreEngine.java:284) - 

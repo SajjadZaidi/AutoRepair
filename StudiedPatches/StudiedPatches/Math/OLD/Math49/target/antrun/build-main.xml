@@ -1,0 +1,11 @@
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+ <copy todir="/home/sajjad/Desktop/astor-master/StudiedPatches/Math/New/Positive/math49/target/apidocs/META-INF">
+  <fileset dir="/home/sajjad/Desktop/astor-master/StudiedPatches/Math/New/Positive/math49">
+   <include name="LICENSE.txt"/>
+   <include name="NOTICE.txt"/>
+  </fileset>
+ </copy>
+</target>
+
+</project>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<patch>
+<operation generation="1" line="186" location="org.apache.commons.math.util.ContinuedFraction" type="ReplaceOp">
+<original>throw new org.apache.commons.math.ConvergenceException(org.apache.commons.math.exception.util.LocalizedFormats.CONTINUED_FRACTION_NAN_DIVERGENCE , x)</original>
+<modified scope="LOCAL">throw new org.apache.commons.math.MaxIterationsExceededException(maxIterations , org.apache.commons.math.exception.util.LocalizedFormats.NON_CONVERGENT_CONTINUED_FRACTION , x)</modified>
+</operation>
+</patch>

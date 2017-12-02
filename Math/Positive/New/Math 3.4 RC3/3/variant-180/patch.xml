@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<patch>
+<operation generation="45" line="64" location="org.apache.commons.math.optimization.linear.SimplexSolver" type="RemoveOp">
+<original>minValue = tableau.getEntry(0, i)</original>
+<modified/>
+</operation>
+</patch>

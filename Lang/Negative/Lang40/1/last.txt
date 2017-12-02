@@ -1,0 +1,15 @@
+*-Parent Variant: [Variant id: 409, #gens: 4, #ops: 0, parent:-]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.createNewProgramVariant(AstorCoreEngine.java:436) - 
+--Child created id: 449
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:504) - --Creating new operations for variant [Variant id: 449, #gens: 4, #ops: 0, parent:409]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:517) - ---analyzing modificationPoint position: 3
+[DEBUG] fr.inria.astor.core.loop.spaces.ingredients.ingredientSearch.EfficientIngredientStrategy.getFixIngredient(EfficientIngredientStrategy.java:90) - --- no mutation left to apply in element if (java.lang.String java.lang.String  strEQnullORjava.lang.String java.lang.String  searchStrEQnull) then {
+return false;
+} else 
+[DEBUG] fr.inria.astor.approaches.jgenprog.JGenProg.createOperatorInstanceForPoint(JGenProg.java:230) - Any ingredient for this point, we discard it
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:553) - ---modifPoint 0 not mutation generated in  if (java.lang.String java[...]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:517) - ---analyzing modificationPoint position: 1
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:540) - operation InsertAfterOp: `return org.apache.commons[...] ` ---> `if ((org.apache.commons.l[...]` at pos 1 of parent `{ 	if ((str == null) || ([...]`
+[DEBUG] fr.inria.astor.core.loop.spaces.operators.AstorOperator.addPoint(AstorOperator.java:108) - ---ModificPoint=StringUtils line: 1048, el: CtIfImpl
+[DEBUG] fr.inria.astor.core.loop.spaces.operators.AstorOperator.addPoint(AstorOperator.java:109) - ---InsertAfterOp: `return org.apache.commons[...] ` ---> `if ((org.apache.commons.l[...]` at pos 1 of parent `{ 	if ((str == null) || ([...]`
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:562) - 

@@ -1,0 +1,7 @@
+--Child created id: 449
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:504) - --Creating new operations for variant [Variant id: 449, #gens: 354, #ops: 0, parent:409]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:517) - ---analyzing modificationPoint position: 198
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:540) - operation InsertAfterOp: `final double e = 0.5 * (j[...] ` ---> `double maxError = java.la[...]` at pos 2 of parent `{ 	final int ip5 = i + 5;[...]`
+[DEBUG] fr.inria.astor.core.loop.spaces.operators.AstorOperator.addPoint(AstorOperator.java:108) - ---ModificPoint=GraggBulirschStoerStepInterpolator line: 214, el: CtLocalVariableImpl
+[DEBUG] fr.inria.astor.core.loop.spaces.operators.AstorOperator.addPoint(AstorOperator.java:109) - ---InsertAfterOp: `final double e = 0.5 * (j[...] ` ---> `double maxError = java.la[...]` at pos 2 of parent `{ 	final int ip5 = i + 5;[...]`
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:562) - 

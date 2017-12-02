@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<patch>
+<operation generation="10" line="147" location="org.apache.commons.math.distribution.FDistributionImpl" type="ReplaceOp">
+<original>ret = d / (d - 2.0)</original>
+<modified scope="PACKAGE">ret = 1.0</modified></operation></patch>

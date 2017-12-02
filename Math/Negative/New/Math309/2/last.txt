@@ -1,0 +1,7 @@
+--Child created id: 449
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:504) - --Creating new operations for variant [Variant id: 449, #gens: 6, #ops: 0, parent:409]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:517) - ---analyzing modificationPoint position: 1
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:540) - operation InsertAfterOp: `if (mean < 0.0) { 	throw [...] ` ---> `secRand.setSeed(java.lang[...]` at pos 0 of parent `{ 	if (mean < 0.0) { 		th[...]`
+[DEBUG] fr.inria.astor.core.loop.spaces.operators.AstorOperator.addPoint(AstorOperator.java:108) - ---ModificPoint=RandomDataImpl line: 465, el: CtInvocationImpl
+[DEBUG] fr.inria.astor.core.loop.spaces.operators.AstorOperator.addPoint(AstorOperator.java:109) - ---InsertAfterOp: `if (mean < 0.0) { 	throw [...] ` ---> `secRand.setSeed(java.lang[...]` at pos 0 of parent `{ 	if (mean < 0.0) { 		th[...]`
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:562) - 

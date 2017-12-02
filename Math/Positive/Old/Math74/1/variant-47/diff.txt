@@ -1,0 +1,20 @@
+
+
+ /** {@inheritDoc} */
+        public void visit(int row, int column, double value)
+            throws MatrixVisitorException {
+            if ((row & 0x1) == 0) {
+                after[column] -= value;
+            } else {
+                after[column] += value;
+            }
+        }
+
+ public void visit(int row, int column, double value) throws org.apache.commons.math.linear.MatrixVisitorException {
+            if ((row & 1) == 0) {
+                after[column] -= value;
+                setMaxGrowth(10.0);
+            } else {
+                after[column] += value;
+            }
+        }

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><patch><operation generation="13" line="3675" location="org.apache.commons.lang3.StringUtils" type="RemoveOp"><original>for (int i = 0 ; i &lt; (searchList.length) ; i++) {
+	int greater = (replacementList[i].length()) - (searchList[i].length());
+	if (greater &gt; 0) {
+		increase += 3 * greater;
+	} 
+}</original><modified/></operation></patch>

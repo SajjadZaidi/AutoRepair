@@ -1,0 +1,13 @@
+--Child created id: 203
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:504) - --Creating new operations for variant [Variant id: 203, #gens: 29, #ops: 0, parent:163]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:517) - ---analyzing modificationPoint position: 1
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:540) - operation ReplaceOp: `return 0 ` ---> `return java.lang.Float.Na[...]` at pos 0 of parent `{ 	return 0; }`
+[DEBUG] fr.inria.astor.core.loop.spaces.operators.AstorOperator.addPoint(AstorOperator.java:108) - ---ModificPoint=MathUtils line: 711, el: CtReturnImpl
+[DEBUG] fr.inria.astor.core.loop.spaces.operators.AstorOperator.addPoint(AstorOperator.java:109) - ---ReplaceOp: `return 0 ` ---> `return java.lang.Float.Na[...]` at pos 0 of parent `{ 	return 0; }`
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:562) - 
+--Summary Creation: for variant [Variant id: 203, #gens: 29, #ops: 1, parent:163] gen mutated: 1 , gen not mut: 0, gen not applied  0
+ 
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.processCreatedVariant(AstorCoreEngine.java:382) - 
+-Saving child on disk variant #203 at /home/sajjad/Desktop/astor-master/./outputMutation/AstorMain-math_99//src//variant-203
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.undoSingleGeneration(AstorCoreEngine.java:487) - ---Undoing: gnrtn(4): ReplaceOp: `return 0 ` ---> `return java.lang.Float.Na[...]` at pos 0 of parent `{ 	return java.lang.Float[...]`
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.prepareNextGeneration(AstorCoreEngine.java:284) - 

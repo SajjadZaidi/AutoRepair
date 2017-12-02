@@ -1,0 +1,27 @@
+*-Parent Variant: [Variant id: 409, #gens: 4, #ops: 0, parent:-]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.createNewProgramVariant(AstorCoreEngine.java:436) - 
+--Child created id: 449
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:504) - --Creating new operations for variant [Variant id: 449, #gens: 4, #ops: 0, parent:409]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:517) - ---analyzing modificationPoint position: 3
+[DEBUG] fr.inria.astor.core.loop.spaces.ingredients.ingredientSearch.EfficientIngredientStrategy.getFixIngredient(EfficientIngredientStrategy.java:90) - --- no mutation left to apply in element if (java.lang.String java.lang.String  strEQnullORjava.lang.String java.lang.String  searchStrEQnull) then {
+return false;
+} else 
+[DEBUG] fr.inria.astor.approaches.jgenprog.JGenProg.createOperatorInstanceForPoint(JGenProg.java:230) - Any ingredient for this point, we discard it
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:553) - ---modifPoint 0 not mutation generated in  if (java.lang.String java[...]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:517) - ---analyzing modificationPoint position: 0
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:540) - operation RemoveOp: `if ((str == null) || (sea[...] ` ---> `-` at pos 0 of parent `{ 	if ((str == null) || ([...]`
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:562) - 
+--Summary Creation: for variant [Variant id: 449, #gens: 3, #ops: 1, parent:409] gen mutated: 1 , gen not mut: 1, gen not applied  0
+ 
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.processCreatedVariant(AstorCoreEngine.java:382) - 
+-Saving child on disk variant #449 at /home/sajjad/Desktop/astor-master/./outputMutation/AstorMain-lang40//src//variant-449
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.processCreatedVariant(AstorCoreEngine.java:390) - -The child compiles: id 449
+[DEBUG] fr.inria.astor.core.validation.validators.ProcessValidator.validate(ProcessValidator.java:64) - -Running first validation
+[DEBUG] fr.inria.astor.core.validation.executors.JUnitExecutorProcess.printCommandToExecute(JUnitExecutorProcess.java:140) - Executing process: 
+/usr/lib/jvm/java-8-openjdk-amd64/bin/java  -Xmx2048m  -cp  /home/sajjad/Desktop/astor-master/./lib/jtestex-0.0.1.jar:/home/sajjad/Desktop/astor-master/./outputMutation/AstorMain-lang40/bin/variant-449/:/home/sajjad/Desktop/astor-master/./examples/libs/junit-4.10.jar:/home/sajjad/Desktop/astor-master/./outputMutation/AstorMain-lang40/bin/default/:/home/sajjad/Desktop/astor-master/astor.jar:  JUnitExternalExecutor  org.apache.commons.lang.StringUtilsEqualsIndexOfTest
+[DEBUG] fr.inria.astor.core.validation.executors.JUnitExecutorProcess.execute(JUnitExecutorProcess.java:77) - Execution time 0 seconds
+[DEBUG] fr.inria.astor.core.validation.executors.JUnitExecutorProcess.execute(JUnitExecutorProcess.java:80) - Running Exit Value
+[DEBUG] fr.inria.astor.core.validation.validators.ProcessValidator.validate(ProcessValidator.java:85) - TR: Success: false, failTest= 2, was successful: false, cases executed: 27] ,[testContainsIgnoreCase_StringString(org.apache.commons.lang.StringUtilsEqualsIndexOfTest): null-, testContainsIgnoreCase_LocaleIndependence(org.apache.commons.lang.StringUtilsEqualsIndexOfTest): en: 0 ß SS-]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.processCreatedVariant(AstorCoreEngine.java:395) - -Valid?: false, fitness 2.0
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.undoSingleGeneration(AstorCoreEngine.java:487) - ---Undoing: gnrtn(10): RemoveOp: `if ((str == null) || (sea[...] ` ---> `-` at pos 0 of parent `{ 	return org.apache.comm[...]`
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.prepareNextGeneration(AstorCoreEngine.java:284) - 

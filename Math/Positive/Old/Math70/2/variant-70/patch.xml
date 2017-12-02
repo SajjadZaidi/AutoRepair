@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><patch><operation generation="1" line="72" location="org.apache.commons.math.analysis.solvers.BisectionSolver" type="ReplaceOp"><original>return solve(min, max)</original><modified scope="LOCAL">return solve(f, min, max)</modified></operation></patch>

@@ -1,0 +1,65 @@
+ /** {@inheritDoc} */
+    @Override
+    protected void iterateSimplex(final Comparator<RealPointValuePair> comparator)
+        throws FunctionEvaluationException, OptimizationException, IllegalArgumentException {
+
+        while (true) {
+
+            incrementIterationsCounter();
+
+            // save the original vertex
+            final RealPointValuePair[] original = simplex;
+            final RealPointValuePair best = original[0];
+
+            // perform a reflection step
+            final RealPointValuePair reflected = evaluateNewSimplex(original, 1.0, comparator);
+            if (comparator.compare(reflected, best) < 0) {
+
+                // compute the expanded simplex
+                final RealPointValuePair[] reflectedSimplex = simplex;
+                final RealPointValuePair expanded = evaluateNewSimplex(original, khi, comparator);
+                if (comparator.compare(reflected, expanded) <= 0) {
+                    // accept the reflected simplex
+                    simplex = reflectedSimplex;
+                }
+
+                return;
+
+            }
+
+            // compute the contracted simplex
+            final RealPointValuePair contracted = evaluateNewSimplex(original, gamma, comparator);
+            if (comparator.compare(contracted, best) < 0) {
+                // accept the contracted simplex
+
+            // check convergence
+                return;
+            }
+
+        }
+
+    }
+	
+	
+	
+	protected void iterateSimplex(final java.util.Comparator<org.apache.commons.math.optimization.RealPointValuePair> comparator) throws java.lang.IllegalArgumentException, org.apache.commons.math.FunctionEvaluationException, org.apache.commons.math.optimization.OptimizationException {
+        while (true) {
+            incrementIterationsCounter();
+            final org.apache.commons.math.optimization.RealPointValuePair[] original = simplex;
+            final org.apache.commons.math.optimization.RealPointValuePair best = original[0];
+            final org.apache.commons.math.optimization.RealPointValuePair reflected = evaluateNewSimplex(original, 1.0, comparator);
+            if ((comparator.compare(reflected, best)) < 0) {
+                final org.apache.commons.math.optimization.RealPointValuePair[] reflectedSimplex = simplex;
+                final org.apache.commons.math.optimization.RealPointValuePair expanded = evaluateNewSimplex(original, khi, comparator);
+                if ((comparator.compare(reflected, expanded)) <= 0) {
+                    simplex = reflectedSimplex;
+                } 
+                return ;
+            } 
+            final org.apache.commons.math.optimization.RealPointValuePair contracted = evaluateNewSimplex(original, gamma, comparator);
+            if ((comparator.compare(contracted, best)) < 0) {
+                return ;
+            } 
+            return ;
+        }
+    }

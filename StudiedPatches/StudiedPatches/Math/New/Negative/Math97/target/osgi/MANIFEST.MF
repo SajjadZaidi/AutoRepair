@@ -1,0 +1,62 @@
+Manifest-Version: 1.0
+Bundle-Description: The Math project is a library of lightweight, self
+ -contained mathematics and statistics components addressing the most 
+ common practical problems not immediately available in the Java progr
+ amming language or commons-lang.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.commons.math
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1510167563940
+Bundle-DocURL: http://commons.apache.org/math/
+Bundle-Vendor: The Apache Software Foundation
+Import-Package: org.apache.commons.math;version="2.0.0.SNAPSHOT",org.a
+ pache.commons.math.analysis;version="2.0.0.SNAPSHOT",org.apache.commo
+ ns.math.complex;version="2.0.0.SNAPSHOT",org.apache.commons.math.dist
+ ribution;version="2.0.0.SNAPSHOT",org.apache.commons.math.estimation;
+ version="2.0.0.SNAPSHOT",org.apache.commons.math.fraction;version="2.
+ 0.0.SNAPSHOT",org.apache.commons.math.genetics;version="2.0.0.SNAPSHO
+ T",org.apache.commons.math.geometry;version="2.0.0.SNAPSHOT",org.apac
+ he.commons.math.linear;version="2.0.0.SNAPSHOT",org.apache.commons.ma
+ th.ode;version="2.0.0.SNAPSHOT",org.apache.commons.math.ode.events;ve
+ rsion="2.0.0.SNAPSHOT",org.apache.commons.math.ode.nonstiff;version="
+ 2.0.0.SNAPSHOT",org.apache.commons.math.ode.sampling;version="2.0.0.S
+ NAPSHOT",org.apache.commons.math.optimization;version="2.0.0.SNAPSHOT
+ ",org.apache.commons.math.random;version="2.0.0.SNAPSHOT",org.apache.
+ commons.math.special;version="2.0.0.SNAPSHOT",org.apache.commons.math
+ .stat;version="2.0.0.SNAPSHOT",org.apache.commons.math.stat.descripti
+ ve;version="2.0.0.SNAPSHOT",org.apache.commons.math.stat.descriptive.
+ moment;version="2.0.0.SNAPSHOT",org.apache.commons.math.stat.descript
+ ive.rank;version="2.0.0.SNAPSHOT",org.apache.commons.math.stat.descri
+ ptive.summary;version="2.0.0.SNAPSHOT",org.apache.commons.math.stat.i
+ nference;version="2.0.0.SNAPSHOT",org.apache.commons.math.stat.regres
+ sion;version="2.0.0.SNAPSHOT",org.apache.commons.math.transform;versi
+ on="2.0.0.SNAPSHOT",org.apache.commons.math.util;version="2.0.0.SNAPS
+ HOT"
+Tool: Bnd-0.0.238
+Export-Package: org.apache.commons.math.ode.nonstiff;version="2.0.0.SN
+ APSHOT",org.apache.commons.math.random;version="2.0.0.SNAPSHOT",org.a
+ pache.commons.math.geometry;version="2.0.0.SNAPSHOT",org.apache.commo
+ ns.math.stat.descriptive.summary;version="2.0.0.SNAPSHOT",org.apache.
+ commons.math.util;version="2.0.0.SNAPSHOT",org.apache.commons.math.st
+ at.descriptive;version="2.0.0.SNAPSHOT",org.apache.commons.math.compl
+ ex;version="2.0.0.SNAPSHOT",org.apache.commons.math.linear;version="2
+ .0.0.SNAPSHOT",org.apache.commons.math.genetics;version="2.0.0.SNAPSH
+ OT",org.apache.commons.math.distribution;version="2.0.0.SNAPSHOT",org
+ .apache.commons.math.fraction;version="2.0.0.SNAPSHOT",org.apache.com
+ mons.math.transform;version="2.0.0.SNAPSHOT",org.apache.commons.math.
+ ode.sampling;version="2.0.0.SNAPSHOT",org.apache.commons.math.stat;ve
+ rsion="2.0.0.SNAPSHOT",org.apache.commons.math.stat.descriptive.momen
+ t;version="2.0.0.SNAPSHOT",org.apache.commons.math.ode;version="2.0.0
+ .SNAPSHOT",org.apache.commons.math.stat.descriptive.rank;version="2.0
+ .0.SNAPSHOT",org.apache.commons.math.estimation;version="2.0.0.SNAPSH
+ OT",org.apache.commons.math.stat.regression;version="2.0.0.SNAPSHOT",
+ org.apache.commons.math.ode.events;version="2.0.0.SNAPSHOT",org.apach
+ e.commons.math;version="2.0.0.SNAPSHOT",org.apache.commons.math.speci
+ al;version="2.0.0.SNAPSHOT",org.apache.commons.math.stat.inference;ve
+ rsion="2.0.0.SNAPSHOT",org.apache.commons.math.analysis;version="2.0.
+ 0.SNAPSHOT",org.apache.commons.math.optimization;version="2.0.0.SNAPS
+ HOT"
+Bundle-Version: 2.0.0.SNAPSHOT
+Bundle-Name: Commons Math
+Created-By: 1.8.0_131 (Oracle Corporation)
+

@@ -1,0 +1,15 @@
+*-Parent Variant: [Variant id: 409, #gens: 3, #ops: 0, parent:-]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.createNewProgramVariant(AstorCoreEngine.java:436) - 
+--Child created id: 449
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:504) - --Creating new operations for variant [Variant id: 449, #gens: 3, #ops: 0, parent:409]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:517) - ---analyzing modificationPoint position: 2
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:540) - operation InsertAfterOp: `return isNaN ` ---> `return createComplex(real[...]` at pos 0 of parent `{ 	return isNaN; }`
+[DEBUG] fr.inria.astor.core.loop.spaces.operators.AstorOperator.addPoint(AstorOperator.java:108) - ---ModificPoint=Complex line: 319, el: CtReturnImpl
+[DEBUG] fr.inria.astor.core.loop.spaces.operators.AstorOperator.addPoint(AstorOperator.java:109) - ---InsertAfterOp: `return isNaN ` ---> `return createComplex(real[...]` at pos 0 of parent `{ 	return isNaN; }`
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:562) - 
+--Summary Creation: for variant [Variant id: 449, #gens: 4, #ops: 1, parent:409] gen mutated: 1 , gen not mut: 0, gen not applied  0
+ 
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.processCreatedVariant(AstorCoreEngine.java:382) - 
+-Saving child on disk variant #449 at /home/sajjad/Desktop/astor-master/./outputMutation/AstorMain-math53//src//variant-449
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.undoSingleGeneration(AstorCoreEngine.java:487) - ---Undoing: gnrtn(10): InsertAfterOp: `return isNaN ` ---> `return createComplex(real[...]` at pos 0 of parent `{ 	return isNaN; 	return [...]`
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.prepareNextGeneration(AstorCoreEngine.java:284) - 

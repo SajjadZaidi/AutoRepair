@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="98" failures="1" name="org.apache.commons.math.complex.ComplexTest" time="0.044" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/sajjad/Desktop/astor-master/StudiedPatches/Math/New/Positive/math53"/>
+    <property name="java.runtime.version" value="1.8.0_131-8u131-b11-0ubuntu1.16.10.2-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="basedir" value="/home/sajjad/Desktop/astor-master/StudiedPatches/Math/New/Positive/math53"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="/home/sajjad/Desktop/astor-master/StudiedPatches/Math/New/Positive/math53/target/surefire/surefirebooter1658607293949754521.jar"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="surefire.test.class.path" value="/home/sajjad/Desktop/astor-master/StudiedPatches/Math/New/Positive/math53/target/test-classes:/home/sajjad/Desktop/astor-master/StudiedPatches/Math/New/Positive/math53/target/classes:/home/sajjad/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.8.0-59-generic"/>
+    <property name="user.home" value="/home/sajjad"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="sajjad"/>
+    <property name="java.class.path" value="/home/sajjad/Desktop/astor-master/StudiedPatches/Math/New/Positive/math53/target/test-classes:/home/sajjad/Desktop/astor-master/StudiedPatches/Math/New/Positive/math53/target/classes:/home/sajjad/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar:"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="sun.java.command" value="/home/sajjad/Desktop/astor-master/StudiedPatches/Math/New/Positive/math53/target/surefire/surefirebooter1658607293949754521.jar /home/sajjad/Desktop/astor-master/StudiedPatches/Math/New/Positive/math53/target/surefire/surefire1899211190726241365tmp /home/sajjad/Desktop/astor-master/StudiedPatches/Math/New/Positive/math53/target/surefire/surefire1958058670147638412tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="/home/sajjad/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testSerial" time="0.003"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testConstructor" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testConstructorNaN" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testAbs" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testAbsNaN" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testAbsInfinite" time="0.001"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testAdd" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testAddNaN" time="0.002">
+    <failure message="" type="java.lang.AssertionError">java.lang.AssertionError: 
+	at org.junit.Assert.fail(Assert.java:91)
+	at org.junit.Assert.assertTrue(Assert.java:43)
+	at org.junit.Assert.assertTrue(Assert.java:54)
+	at org.apache.commons.math.complex.ComplexTest.testAddNaN(ComplexTest.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:44)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:41)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+	at org.junit.runners.BlockJUnit4ClassRunner.runNotIgnored(BlockJUnit4ClassRunner.java:79)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:71)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:49)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:193)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:52)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:191)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:42)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:184)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:236)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:35)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:115)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.booter.ProviderFactory$ClassLoaderProxy.invoke(ProviderFactory.java:103)
+	at com.sun.proxy.$Proxy0.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:150)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcess(SurefireStarter.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:69)
+</failure>
+  </testcase>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testAddInfinite" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testConjugate" time="0.001"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testConjugateNaN" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testConjugateInfiinite" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testDivide" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testDivideReal" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testDivideImaginary" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testDivideInfinite" time="0.001"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testDivideZero" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testDivideNaN" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testDivideNaNInf" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testMultiply" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testMultiplyNaN" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testMultiplyNaNInf" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testScalarMultiply" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testScalarMultiplyNaN" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testScalarMultiplyInf" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testNegate" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testNegateNaN" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testSubtract" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testSubtractNaN" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testEqualsNull" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testEqualsClass" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testEqualsSame" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testEqualsTrue" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testEqualsRealDifference" time="0.001"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testEqualsImaginaryDifference" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testEqualsNaN" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testHashCode" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testAcos" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testAcosInf" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testAcosNaN" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testAsin" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testAsinNaN" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testAsinInf" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testAtan" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testAtanInf" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testAtanNaN" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testCos" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testCosNaN" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testCosInf" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testCosh" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testCoshNaN" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testCoshInf" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testExp" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testExpNaN" time="0.001"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testExpInf" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testLog" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testLogNaN" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testLogInf" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testLogZero" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testPow" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testPowNaNBase" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testPowNaNExponent" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testPowInf" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testPowZero" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testpowNull" time="0.001"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testSin" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testSinInf" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testSinNaN" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testSinh" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testSinhNaN" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testSinhInf" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testSqrtRealPositive" time="0.001"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testSqrtRealZero" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testSqrtRealNegative" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testSqrtImaginaryZero" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testSqrtImaginaryNegative" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testSqrtPolar" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testSqrtNaN" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testSqrtInf" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testSqrt1z" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testSqrt1zNaN" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testTan" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testTanNaN" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testTanInf" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testTanCritical" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testTanh" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testTanhNaN" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testTanhInf" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testTanhCritical" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testMath221" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testNthRoot_normal_thirdRoot" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testNthRoot_normal_fourthRoot" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testNthRoot_cornercase_thirdRoot_imaginaryPartEmpty" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testNthRoot_cornercase_thirdRoot_realPartZero" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testNthRoot_cornercase_NAN_Inf" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testGetArgument" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testGetArgumentInf" time="0"/>
+  <testcase classname="org.apache.commons.math.complex.ComplexTest" name="testGetArgumentNaN" time="0"/>
+</testsuite>

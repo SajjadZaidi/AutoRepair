@@ -1,0 +1,13 @@
+--Child created id: 449
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:504) - --Creating new operations for variant [Variant id: 449, #gens: 30, #ops: 0, parent:409]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:517) - ---analyzing modificationPoint position: 21
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:540) - operation ReplaceOp: `double yMin = f.value(min[...] ` ---> `double t` at pos 3 of parent `{ 	clearResult(); 	verify[...]`
+[DEBUG] fr.inria.astor.core.loop.spaces.operators.AstorOperator.addPoint(AstorOperator.java:108) - ---ModificPoint=BrentSolver line: 133, el: CtLocalVariableImpl
+[DEBUG] fr.inria.astor.core.loop.spaces.operators.AstorOperator.addPoint(AstorOperator.java:109) - ---ReplaceOp: `double yMin = f.value(min[...] ` ---> `double t` at pos 3 of parent `{ 	clearResult(); 	verify[...]`
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:562) - 
+--Summary Creation: for variant [Variant id: 449, #gens: 30, #ops: 1, parent:409] gen mutated: 1 , gen not mut: 0, gen not applied  0
+ 
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.processCreatedVariant(AstorCoreEngine.java:382) - 
+-Saving child on disk variant #449 at /home/sajjad/Desktop/astor-master/./outputMutation/AstorMain-math_97//src//variant-449
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.undoSingleGeneration(AstorCoreEngine.java:487) - ---Undoing: gnrtn(10): ReplaceOp: `double yMin = f.value(min[...] ` ---> `double t` at pos 3 of parent `{ 	clearResult(); 	verify[...]`
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.prepareNextGeneration(AstorCoreEngine.java:284) - 

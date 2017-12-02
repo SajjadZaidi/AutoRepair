@@ -1,0 +1,59 @@
+Manifest-Version: 1.0
+Bundle-Description: The Math project is a library of lightweight, self
+ -contained mathematics and statistics components addressing the most 
+ common practical problems not immediately available in the Java progr
+ amming language or commons-lang.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.commons.math
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1510266267794
+Bundle-DocURL: http://commons.apache.org/math/
+Bundle-Vendor: The Apache Software Foundation
+Tool: Bnd-0.0.255
+Export-Package: org.apache.commons.math.exception;version="3.0.0.SNAPS
+ HOT",org.apache.commons.math.analysis.polynomials;version="3.0.0.SNAP
+ SHOT",org.apache.commons.math.geometry.euclidean.twod;version="3.0.0.
+ SNAPSHOT",org.apache.commons.math.filter;version="3.0.0.SNAPSHOT",org
+ .apache.commons.math.exception.util;version="3.0.0.SNAPSHOT",org.apac
+ he.commons.math.ode.nonstiff;version="3.0.0.SNAPSHOT",org.apache.comm
+ ons.math.random;version="3.0.0.SNAPSHOT",org.apache.commons.math.stat
+ .correlation;version="3.0.0.SNAPSHOT",org.apache.commons.math.geometr
+ y;version="3.0.0.SNAPSHOT",org.apache.commons.math.stat.descriptive.s
+ ummary;version="3.0.0.SNAPSHOT",org.apache.commons.math.analysis.inte
+ gration;version="3.0.0.SNAPSHOT",org.apache.commons.math.util;version
+ ="3.0.0.SNAPSHOT",org.apache.commons.math.stat.descriptive;version="3
+ .0.0.SNAPSHOT",org.apache.commons.math.complex;version="3.0.0.SNAPSHO
+ T",org.apache.commons.math.linear;version="3.0.0.SNAPSHOT",org.apache
+ .commons.math.genetics;version="3.0.0.SNAPSHOT",org.apache.commons.ma
+ th.distribution;version="3.0.0.SNAPSHOT",org.apache.commons.math.frac
+ tion;version="3.0.0.SNAPSHOT",org.apache.commons.math.geometry.euclid
+ ean.oned;version="3.0.0.SNAPSHOT",org.apache.commons.math.transform;v
+ ersion="3.0.0.SNAPSHOT",org.apache.commons.math.optimization.fitting;
+ version="3.0.0.SNAPSHOT",org.apache.commons.math.dfp;version="3.0.0.S
+ NAPSHOT",org.apache.commons.math.geometry.partitioning.utilities;vers
+ ion="3.0.0.SNAPSHOT",org.apache.commons.math.ode.sampling;version="3.
+ 0.0.SNAPSHOT",org.apache.commons.math.stat;version="3.0.0.SNAPSHOT",o
+ rg.apache.commons.math.analysis.function;version="3.0.0.SNAPSHOT",org
+ .apache.commons.math.analysis.solvers;version="3.0.0.SNAPSHOT",org.ap
+ ache.commons.math.stat.clustering;version="3.0.0.SNAPSHOT",org.apache
+ .commons.math.stat.descriptive.moment;version="3.0.0.SNAPSHOT",org.ap
+ ache.commons.math.ode;version="3.0.0.SNAPSHOT",org.apache.commons.mat
+ h.stat.descriptive.rank;version="3.0.0.SNAPSHOT",org.apache.commons.m
+ ath.optimization.direct;version="3.0.0.SNAPSHOT",org.apache.commons.m
+ ath.optimization.univariate;version="3.0.0.SNAPSHOT",org.apache.commo
+ ns.math.stat.regression;version="3.0.0.SNAPSHOT",org.apache.commons.m
+ ath.optimization.linear;version="3.0.0.SNAPSHOT",org.apache.commons.m
+ ath.stat.ranking;version="3.0.0.SNAPSHOT",org.apache.commons.math.ode
+ .events;version="3.0.0.SNAPSHOT",org.apache.commons.math;version="3.0
+ .0.SNAPSHOT",org.apache.commons.math.geometry.euclidean.threed;versio
+ n="3.0.0.SNAPSHOT",org.apache.commons.math.special;version="3.0.0.SNA
+ PSHOT",org.apache.commons.math.geometry.partitioning;version="3.0.0.S
+ NAPSHOT",org.apache.commons.math.optimization.general;version="3.0.0.
+ SNAPSHOT",org.apache.commons.math.stat.inference;version="3.0.0.SNAPS
+ HOT",org.apache.commons.math.analysis;version="3.0.0.SNAPSHOT",org.ap
+ ache.commons.math.analysis.interpolation;version="3.0.0.SNAPSHOT",org
+ .apache.commons.math.optimization;version="3.0.0.SNAPSHOT"
+Bundle-Version: 3.0.0.SNAPSHOT
+Bundle-Name: Commons Math
+Created-By: 1.8.0_131 (Oracle Corporation)
+

@@ -1,0 +1,23 @@
+*-Parent Variant: [Variant id: 409, #gens: 24, #ops: 0, parent:-]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.createNewProgramVariant(AstorCoreEngine.java:436) - 
+--Child created id: 449
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:504) - --Creating new operations for variant [Variant id: 449, #gens: 24, #ops: 0, parent:409]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:517) - ---analyzing modificationPoint position: 12
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:540) - operation ReplaceOp: `if (upper != (str.length([...] ` ---> `if (index != 0) { 	throw [...]` at pos 1 of parent `{ 	result.append(str.subs[...]`
+[DEBUG] fr.inria.astor.core.loop.spaces.operators.AstorOperator.addPoint(AstorOperator.java:108) - ---ModificPoint=WordUtils line: 631, el: CtIfImpl
+[DEBUG] fr.inria.astor.core.loop.spaces.operators.AstorOperator.addPoint(AstorOperator.java:109) - ---ReplaceOp: `if (upper != (str.length([...] ` ---> `if (index != 0) { 	throw [...]` at pos 1 of parent `{ 	result.append(str.subs[...]`
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:562) - 
+--Summary Creation: for variant [Variant id: 449, #gens: 24, #ops: 1, parent:409] gen mutated: 1 , gen not mut: 0, gen not applied  0
+ 
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.processCreatedVariant(AstorCoreEngine.java:382) - 
+-Saving child on disk variant #449 at /home/sajjad/Desktop/astor-master/./outputMutation/AstorMain-lang45//src//variant-449
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.processCreatedVariant(AstorCoreEngine.java:390) - -The child compiles: id 449
+[DEBUG] fr.inria.astor.core.validation.validators.ProcessValidator.validate(ProcessValidator.java:64) - -Running first validation
+[DEBUG] fr.inria.astor.core.validation.executors.JUnitExecutorProcess.printCommandToExecute(JUnitExecutorProcess.java:140) - Executing process: 
+/usr/lib/jvm/java-8-openjdk-amd64/bin/java  -Xmx2048m  -cp  /home/sajjad/Desktop/astor-master/./lib/jtestex-0.0.1.jar:/home/sajjad/Desktop/astor-master/./outputMutation/AstorMain-lang45/bin/variant-449/:/home/sajjad/Desktop/astor-master/./examples/libs/junit-4.4.jar:/home/sajjad/Desktop/astor-master/./outputMutation/AstorMain-lang45/bin/default/:/home/sajjad/Desktop/astor-master/astor.jar:  JUnitExternalExecutor  org.apache.commons.lang.WordUtilsTest
+[DEBUG] fr.inria.astor.core.validation.executors.JUnitExecutorProcess.execute(JUnitExecutorProcess.java:77) - Execution time 0 seconds
+[DEBUG] fr.inria.astor.core.validation.executors.JUnitExecutorProcess.execute(JUnitExecutorProcess.java:80) - Running Exit Value
+[DEBUG] fr.inria.astor.core.validation.validators.ProcessValidator.validate(ProcessValidator.java:85) - TR: Success: false, failTest= 1, was successful: false, cases executed: 13] ,[testAbbreviate(org.apache.commons.lang.WordUtilsTest): Index: -1, Length: 0-]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.processCreatedVariant(AstorCoreEngine.java:395) - -Valid?: false, fitness 1.0
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.undoSingleGeneration(AstorCoreEngine.java:487) - ---Undoing: gnrtn(10): ReplaceOp: `if (upper != (str.length([...] ` ---> `if (index != 0) { 	throw [...]` at pos 1 of parent `{ 	result.append(str.subs[...]`
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.prepareNextGeneration(AstorCoreEngine.java:284) - 

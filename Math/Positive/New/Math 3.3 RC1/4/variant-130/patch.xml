@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><patch><operation generation="1" line="285" location="org.apache.commons.math.ode.events.EventState" type="RemoveOp"><original>t0 = t</original><modified/></operation></patch>

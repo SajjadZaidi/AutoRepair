@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<patch>
+<operation generation="1" line="138" location="org.apache.commons.math.analysis.solvers.BrentSolver" type="ReplaceOp">
+<original>return solve(f, min, yMin, max, yMax, initial, yInitial)</original>
+<modified scope="LOCAL">return solve(f, min, max)</modified>
+</operation>
+</patch>

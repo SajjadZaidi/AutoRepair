@@ -1,0 +1,15 @@
+*-Parent Variant: [Variant id: 286, #gens: 55, #ops: 0, parent:-]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.createNewProgramVariant(AstorCoreEngine.java:436) - 
+--Child created id: 326
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:504) - --Creating new operations for variant [Variant id: 326, #gens: 55, #ops: 0, parent:286]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:517) - ---analyzing modificationPoint position: 14
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:540) - operation ReplaceOp: `int d = getDimension() ` ---> `long mask = -4294967296L` at pos 0 of parent `{ 	int d = getDimension()[...]`
+[DEBUG] fr.inria.astor.core.loop.spaces.operators.AstorOperator.addPoint(AstorOperator.java:108) - ---ModificPoint=AbstractRealVector line: 63, el: CtLocalVariableImpl
+[DEBUG] fr.inria.astor.core.loop.spaces.operators.AstorOperator.addPoint(AstorOperator.java:109) - ---ReplaceOp: `int d = getDimension() ` ---> `long mask = -4294967296L` at pos 0 of parent `{ 	int d = getDimension()[...]`
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:562) - 
+--Summary Creation: for variant [Variant id: 326, #gens: 55, #ops: 1, parent:286] gen mutated: 1 , gen not mut: 0, gen not applied  0
+ 
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.processCreatedVariant(AstorCoreEngine.java:382) - 
+-Saving child on disk variant #326 at /home/sajjad/Desktop/astor-master/./outputMutation/AstorMain-math49//src//variant-326
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.undoSingleGeneration(AstorCoreEngine.java:487) - ---Undoing: gnrtn(7): ReplaceOp: `int d = getDimension() ` ---> `long mask = -4294967296L` at pos 0 of parent `{ 	long mask = -429496729[...]`
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.prepareNextGeneration(AstorCoreEngine.java:284) - 

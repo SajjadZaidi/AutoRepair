@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<patch>
+<operation generation="9" line="90" location="org.apache.commons.math.optimization.direct.MultiDirectional" type="InsertAfterOp">
+<original>if ((comparator.compare(contracted, best)) &lt; 0) {
+	return ;
+} 
+</original>
+<modified scope="LOCAL">return </modified>
+</operation>
+</patch>

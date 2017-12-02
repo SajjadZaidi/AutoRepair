@@ -1,0 +1,287 @@
+ // get a good guess on the size of the result buffer so it doesnt have to double if it goes over a bit
+        int increase = 0;
+
+        // count the replacement text elements that are larger than their corresponding text being replaced
+        for (int i = 0; i < searchList.length; i++) {
+        	// if (searchList[i] == null || replacementList[i] == null) {
+        		//               continue;
+              //   }//Fix lang 39
+            int greater = replacementList[i].length() - searchList[i].length();
+            if (greater > 0) {
+                increase += 3 * greater; // assume 3 matches
+            }
+        }
+        // have upper-bound at 20% increase, then let Java take over
+        increase = Math.min(increase, text.length() / 5);
+
+
+ int increase = 0;
+        increase = java.lang.Math.min(increase, ((text.length()) / 5));
+        
+
+private static String replaceEach(String text, String[] searchList, String[] replacementList, 
+                                      boolean repeat, int timeToLive) 
+    {
+
+        // mchyzer Performance note: This creates very few new objects (one major goal)
+        // let me know if there are performance requests, we can create a harness to measure
+
+        if (text == null || text.length() == 0 || searchList == null || 
+            searchList.length == 0 || replacementList == null || replacementList.length == 0) 
+        {
+            return text;
+        }
+
+        // if recursing, this shouldnt be less than 0
+        if (timeToLive < 0) {
+            throw new IllegalStateException("TimeToLive of " + timeToLive + " is less than 0: " + text);
+        }
+
+        int searchLength = searchList.length;
+        int replacementLength = replacementList.length;
+
+        // make sure lengths are ok, these need to be equal
+        if (searchLength != replacementLength) {
+            throw new IllegalArgumentException("Search and Replace array lengths don't match: "
+                + searchLength
+                + " vs "
+                + replacementLength);
+        }
+
+        // keep track of which still have matches
+        boolean[] noMoreMatchesForReplIndex = new boolean[searchLength];
+
+        // index on index that the match was found
+        int textIndex = -1;
+        int replaceIndex = -1;
+        int tempIndex = -1;
+
+        // index of replace array that will replace the search string found
+        // NOTE: logic duplicated below START
+        for (int i = 0; i < searchLength; i++) {
+            if (noMoreMatchesForReplIndex[i] || searchList[i] == null || 
+                searchList[i].length() == 0 || replacementList[i] == null) 
+            {
+                continue;
+            }
+            tempIndex = text.indexOf(searchList[i]);
+
+            // see if we need to keep searching for this
+            if (tempIndex == -1) {
+                noMoreMatchesForReplIndex[i] = true;
+            } else {
+                if (textIndex == -1 || tempIndex < textIndex) {
+                    textIndex = tempIndex;
+                    replaceIndex = i;
+                }
+            }
+        }
+        // NOTE: logic mostly below END
+
+        // no search strings found, we are done
+        if (textIndex == -1) {
+            return text;
+        }
+
+        int start = 0;
+
+        // get a good guess on the size of the result buffer so it doesnt have to double if it goes over a bit
+        int increase = 0;
+
+        // count the replacement text elements that are larger than their corresponding text being replaced
+        for (int i = 0; i < searchList.length; i++) {
+        	// if (searchList[i] == null || replacementList[i] == null) {
+        		//               continue;
+              //   }//Fix lang 39
+            int greater = replacementList[i].length() - searchList[i].length();
+            if (greater > 0) {
+                increase += 3 * greater; // assume 3 matches
+            }
+        }
+        // have upper-bound at 20% increase, then let Java take over
+        increase = Math.min(increase, text.length() / 5);
+
+        StringBuilder buf = new StringBuilder(text.length() + increase);
+
+        while (textIndex != -1) {
+
+            for (int i = start; i < textIndex; i++) {
+                buf.append(text.charAt(i));
+            }
+            buf.append(replacementList[replaceIndex]);
+
+            start = textIndex + searchList[replaceIndex].length();
+
+            textIndex = -1;
+            replaceIndex = -1;
+            tempIndex = -1;
+            // find the next earliest match
+            // NOTE: logic mostly duplicated above START
+            for (int i = 0; i < searchLength; i++) {
+                if (noMoreMatchesForReplIndex[i] || searchList[i] == null || 
+                    searchList[i].length() == 0 || replacementList[i] == null) 
+                {
+                    continue;
+                }
+                tempIndex = text.indexOf(searchList[i], start);
+
+                // see if we need to keep searching for this
+                if (tempIndex == -1) {
+                    noMoreMatchesForReplIndex[i] = true;
+                } else {
+                    if (textIndex == -1 || tempIndex < textIndex) {
+                        textIndex = tempIndex;
+                        replaceIndex = i;
+                    }
+                }
+            }
+            // NOTE: logic duplicated above END
+
+        }
+        int textLength = text.length();
+        for (int i = start; i < textLength; i++) {
+            buf.append(text.charAt(i));
+        }
+        String result = buf.toString();
+        if (!repeat) {
+            return result;
+        }
+
+        return replaceEach(result, searchList, replacementList, repeat, timeToLive - 1);
+    }
+
+  private static java.lang.String replaceEach(java.lang.String text, java.lang.String[] searchList, java.lang.String[] replacementList, boolean repeat, int timeToLive) {
+        if ((((((text == null) || ((text.length()) == 0)) || (searchList == null)) || ((searchList.length) == 0)) || (replacementList == null)) || ((replacementList.length) == 0)) {
+            return text;
+        } 
+        if (timeToLive < 0) {
+            throw new java.lang.IllegalStateException(((("TimeToLive of " + timeToLive) + " is less than 0: ") + text));
+        } 
+        int searchLength = searchList.length;
+        int replacementLength = replacementList.length;
+        if (searchLength != replacementLength) {
+            throw new java.lang.IllegalArgumentException(((("Search and Replace array lengths don't match: " + searchLength) + " vs ") + replacementLength));
+        } 
+        boolean[] noMoreMatchesForReplIndex = new boolean[searchLength];
+        int textIndex = -1;
+        int replaceIndex = -1;
+        int tempIndex = -1;
+        for (int i = 0 ; i < searchLength ; i++) {
+            if ((((noMoreMatchesForReplIndex[i]) || ((searchList[i]) == null)) || ((searchList[i].length()) == 0)) || ((replacementList[i]) == null)) {
+                continue;
+            } 
+            tempIndex = text.indexOf(searchList[i]);
+            if (tempIndex == (-1)) {
+                noMoreMatchesForReplIndex[i] = true;
+            } else {
+                if ((textIndex == (-1)) || (tempIndex < textIndex)) {
+                    textIndex = tempIndex;
+                    replaceIndex = i;
+                } 
+            }
+        }
+        if (textIndex == (-1)) {
+            return text;
+        } 
+        int start = 0;
+        int increase = 0;
+        increase = java.lang.Math.min(increase, ((text.length()) / 5));
+        java.lang.StringBuilder buf = new java.lang.StringBuilder(((text.length()) + increase));
+        while (textIndex != (-1)) {
+            for (int i = start ; i < textIndex ; i++) {
+                buf.append(text.charAt(i));
+            }
+            buf.append(replacementList[replaceIndex]);
+            start = textIndex + (searchList[replaceIndex].length());
+            textIndex = -1;
+            replaceIndex = -1;
+            tempIndex = -1;
+            for (int i = 0 ; i < searchLength ; i++) {
+                if ((((noMoreMatchesForReplIndex[i]) || ((searchList[i]) == null)) || ((searchList[i].length()) == 0)) || ((replacementList[i]) == null)) {
+                    continue;
+                } 
+                tempIndex = text.indexOf(searchList[i], start);
+                if (tempIndex == (-1)) {
+                    noMoreMatchesForReplIndex[i] = true;
+                } else {
+                    if ((textIndex == (-1)) || (tempIndex < textIndex)) {
+                        textIndex = tempIndex;
+                        replaceIndex = i;
+                    } 
+                }
+            }
+        }
+        int textLength = text.length();
+        for (int i = start ; i < textLength ; i++) {
+            buf.append(text.charAt(i));
+        }
+        java.lang.String result = buf.toString();
+        if (!repeat) {
+            return result;
+        } 
+        return org.apache.commons.lang3.StringUtils.replaceEach(result, searchList, replacementList, repeat, (timeToLive - 1));
+    }
+
+    public static java.lang.String replaceChars(java.lang.String str, char searchChar, char replaceChar) {
+        if (str == null) {
+            return null;
+        } 
+        return str.replace(searchChar, replaceChar);
+    }
+
+    public static java.lang.String replaceChars(java.lang.String str, java.lang.String searchChars, java.lang.String replaceChars) {
+        if ((org.apache.commons.lang3.StringUtils.isEmpty(str)) || (org.apache.commons.lang3.StringUtils.isEmpty(searchChars))) {
+            return str;
+        } 
+        if (replaceChars == null) {
+            replaceChars = org.apache.commons.lang3.StringUtils.EMPTY;
+        } 
+        boolean modified = false;
+        int replaceCharsLength = replaceChars.length();
+        int strLength = str.length();
+        java.lang.StringBuilder buf = new java.lang.StringBuilder(strLength);
+        for (int i = 0 ; i < strLength ; i++) {
+            char ch = str.charAt(i);
+            int index = searchChars.indexOf(ch);
+            if (index >= 0) {
+                modified = true;
+                if (index < replaceCharsLength) {
+                    buf.append(replaceChars.charAt(index));
+                } 
+            } else {
+                buf.append(ch);
+            }
+        }
+        if (modified) {
+            return buf.toString();
+        } 
+        return str;
+    }
+
+    public static java.lang.String overlay(java.lang.String str, java.lang.String overlay, int start, int end) {
+        if (str == null) {
+            return null;
+        } 
+        if (overlay == null) {
+            overlay = org.apache.commons.lang3.StringUtils.EMPTY;
+        } 
+        int len = str.length();
+        if (start < 0) {
+            start = 0;
+        } 
+        if (start > len) {
+            start = len;
+        } 
+        if (end < 0) {
+            end = 0;
+        } 
+        if (end > len) {
+            end = len;
+        } 
+        if (start > end) {
+            int temp = start;
+            start = end;
+            end = temp;
+        } 
+        return new java.lang.StringBuilder(((((len + start) - end) + (overlay.length())) + 1)).append(str.substring(0, start)).append(overlay).append(str.substring(end)).toString();
+    }

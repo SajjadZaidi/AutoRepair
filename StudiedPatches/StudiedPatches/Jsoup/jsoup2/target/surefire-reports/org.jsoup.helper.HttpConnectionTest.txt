@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: org.jsoup.helper.HttpConnectionTest
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.019 sec <<< FAILURE! - in org.jsoup.helper.HttpConnectionTest
+caseInsensitiveHeaders(org.jsoup.helper.HttpConnectionTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.jsoup.helper.HttpConnectionTest.caseInsensitiveHeaders(HttpConnectionTest.java:51)
+

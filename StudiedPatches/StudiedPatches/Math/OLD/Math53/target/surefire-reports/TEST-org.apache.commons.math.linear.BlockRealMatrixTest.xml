@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="48" failures="0" name="org.apache.commons.math.linear.BlockRealMatrixTest" time="0.116" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/sajjad/Desktop/astor-master/StudiedPatches/Math/New/Positive/math53"/>
+    <property name="java.runtime.version" value="1.8.0_131-8u131-b11-0ubuntu1.16.10.2-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="basedir" value="/home/sajjad/Desktop/astor-master/StudiedPatches/Math/New/Positive/math53"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="/home/sajjad/Desktop/astor-master/StudiedPatches/Math/New/Positive/math53/target/surefire/surefirebooter1658607293949754521.jar"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="surefire.test.class.path" value="/home/sajjad/Desktop/astor-master/StudiedPatches/Math/New/Positive/math53/target/test-classes:/home/sajjad/Desktop/astor-master/StudiedPatches/Math/New/Positive/math53/target/classes:/home/sajjad/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="4.8.0-59-generic"/>
+    <property name="user.home" value="/home/sajjad"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="sajjad"/>
+    <property name="java.class.path" value="/home/sajjad/Desktop/astor-master/StudiedPatches/Math/New/Positive/math53/target/test-classes:/home/sajjad/Desktop/astor-master/StudiedPatches/Math/New/Positive/math53/target/classes:/home/sajjad/.m2/repository/junit/junit/4.8.2/junit-4.8.2.jar:"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="sun.java.command" value="/home/sajjad/Desktop/astor-master/StudiedPatches/Math/New/Positive/math53/target/surefire/surefirebooter1658607293949754521.jar /home/sajjad/Desktop/astor-master/StudiedPatches/Math/New/Positive/math53/target/surefire/surefire1899211190726241365tmp /home/sajjad/Desktop/astor-master/StudiedPatches/Math/New/Positive/math53/target/surefire/surefire1958058670147638412tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="/home/sajjad/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testSerial" time="0.001"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testAdd" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testMultiply" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testEqualsAndHashCode" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testToString" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testNorm" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testCopyFunctions" time="0.001"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testAddFail" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testFrobeniusNorm" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testPlusMinus" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testSeveralBlocks" time="0.02"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testMultiply2" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testTrace" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testScalarAdd" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testOperate" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testOperateLarge" time="0.028"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testOperatePremultiplyLarge" time="0.025"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testMath209" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testTranspose" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testPremultiplyVector" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testPremultiply" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testGetVectors" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testGetEntry" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testExamples" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testGetSubMatrix" time="0.001"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testGetSetMatrixLarge" time="0.008"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testCopySubMatrix" time="0.001"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testGetRowMatrix" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testSetRowMatrix" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testGetSetRowMatrixLarge" time="0.002"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testGetColumnMatrix" time="0.001"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testSetColumnMatrix" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testDimensions" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testSetColumnVector" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testGetSetColumnVectorLarge" time="0.002"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testGetRow" time="0.001"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testSetRow" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testGetSetRowLarge" time="0.002"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testGetColumn" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testSetColumn" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testGetSetColumnLarge" time="0.002"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testSetSubMatrix" time="0.001"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testWalk" time="0.011"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testGetSetColumnMatrixLarge" time="0.003"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testGetRowVector" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testSetRowVector" time="0"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testGetSetRowVectorLarge" time="0.002"/>
+  <testcase classname="org.apache.commons.math.linear.BlockRealMatrixTest" name="testGetColumnVector" time="0"/>
+</testsuite>

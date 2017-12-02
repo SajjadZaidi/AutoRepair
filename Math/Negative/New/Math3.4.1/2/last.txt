@@ -1,0 +1,14 @@
+--Summary Creation: for variant [Variant id: 367, #gens: 20, #ops: 1, parent:327] gen mutated: 1 , gen not mut: 0, gen not applied  0
+ 
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.processCreatedVariant(AstorCoreEngine.java:382) - 
+-Saving child on disk variant #367 at /home/sajjad/Desktop/astor-master/./outputMutation/AstorMain-math_ef//src//variant-367
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.processCreatedVariant(AstorCoreEngine.java:390) - -The child compiles: id 367
+[DEBUG] fr.inria.astor.core.validation.validators.ProcessValidator.validate(ProcessValidator.java:64) - -Running first validation
+[DEBUG] fr.inria.astor.core.validation.executors.JUnitExecutorProcess.printCommandToExecute(JUnitExecutorProcess.java:140) - Executing process: 
+/usr/lib/jvm/java-8-openjdk-amd64/bin/java  -Xmx2048m  -cp  /home/sajjad/Desktop/astor-master/./lib/jtestex-0.0.1.jar:/home/sajjad/Desktop/astor-master/./outputMutation/AstorMain-math_ef/bin/variant-367/:/home/sajjad/Desktop/astor-master/./examples/libs/junit-4.10.jar:/home/sajjad/Desktop/astor-master/./outputMutation/AstorMain-math_ef/bin/default/:/home/sajjad/Desktop/astor-master/astor.jar:  JUnitExternalExecutor  org.apache.commons.math3.primes.PrimesTest
+[DEBUG] fr.inria.astor.core.validation.executors.JUnitExecutorProcess.execute(JUnitExecutorProcess.java:77) - Execution time 7 seconds
+[DEBUG] fr.inria.astor.core.validation.executors.JUnitExecutorProcess.execute(JUnitExecutorProcess.java:80) - Running Exit Value
+[DEBUG] fr.inria.astor.core.validation.validators.ProcessValidator.validate(ProcessValidator.java:85) - TR: Success: false, failTest= 1, was successful: false, cases executed: 3] ,[testNextPrime(org.apache.commons.math3.primes.PrimesTest): expected:<11> but was:<2>-]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.processCreatedVariant(AstorCoreEngine.java:395) - -Valid?: false, fitness 1.0
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.undoSingleGeneration(AstorCoreEngine.java:487) - ---Undoing: gnrtn(8): RemoveOp: `return n ` ---> `-` at pos 0 of parent `{ }`
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.prepareNextGeneration(AstorCoreEngine.java:284) - 

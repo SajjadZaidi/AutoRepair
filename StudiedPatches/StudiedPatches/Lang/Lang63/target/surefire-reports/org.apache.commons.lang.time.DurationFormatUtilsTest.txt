@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.commons.lang.time.DurationFormatUtilsTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.009 sec <<< FAILURE! - in org.apache.commons.lang.time.DurationFormatUtilsTest
+testJiraLang281(org.apache.commons.lang.time.DurationFormatUtilsTest)  Time elapsed: 0 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<09> but was:<-2>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at org.apache.commons.lang.time.DurationFormatUtilsTest.testJiraLang281(DurationFormatUtilsTest.java:435)
+

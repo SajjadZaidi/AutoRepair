@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="/home/sajjad/Desktop/astor-master/example/math_fb/target/apidocs/META-INF">
+    <fileset dir="/home/sajjad/Desktop/astor-master/example/math_fb">
+      <include name="LICENSE.txt"/>
+      <include name="NOTICE.txt"/>
+    </fileset>
+  </copy>
+</target>
+</project>

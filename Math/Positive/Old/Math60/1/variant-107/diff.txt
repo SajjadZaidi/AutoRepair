@@ -1,0 +1,14 @@
+
+   if (infinite) {
+               // Scaling failed
+               throw new ConvergenceException(
+                 LocalizedFormats.CONTINUED_FRACTION_INFINITY_DIVERGENCE,
+                  x);
+            }
+
+
+  double r = p2 / q2;
+            if (java.lang.Double.isNaN(r)) {
+                throw new org.apache.commons.math.MaxIterationsExceededException(maxIterations , org.apache.commons.math.exception.util.LocalizedFormats.NON_CONVERGENT_CONTINUED_FRACTION , x);
+            } 
+          

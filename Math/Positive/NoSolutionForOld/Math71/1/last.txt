@@ -1,0 +1,17 @@
+*-Parent Variant: [Variant id: 409, #gens: 278, #ops: 0, parent:-]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.createNewProgramVariant(AstorCoreEngine.java:436) - 
+--Child created id: 449
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:504) - --Creating new operations for variant [Variant id: 449, #gens: 278, #ops: 0, parent:409]
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:517) - ---analyzing modificationPoint position: 275
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:540) - operation RemoveOp: `lastStep = manager.stop() ` ---> `-` at pos 6 of parent `{ 	interpolator.shift(); [...]`
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.modifyProgramVariant(AstorCoreEngine.java:562) - 
+--Summary Creation: for variant [Variant id: 449, #gens: 277, #ops: 1, parent:409] gen mutated: 1 , gen not mut: 0, gen not applied  0
+ 
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.processCreatedVariant(AstorCoreEngine.java:382) - 
+-Saving child on disk variant #449 at /home/sajjad/Desktop/astor-master/./outputMutation/AstorMain-math71//src//variant-449
+[DEBUG] fr.inria.astor.core.loop.AstorCoreEngine.processCreatedVariant(AstorCoreEngine.java:390) - -The child compiles: id 449
+[DEBUG] fr.inria.astor.core.validation.validators.ProcessValidator.validate(ProcessValidator.java:64) - -Running first validation
+[DEBUG] fr.inria.astor.core.validation.executors.JUnitExecutorProcess.printCommandToExecute(JUnitExecutorProcess.java:140) - Executing process: 
+/usr/lib/jvm/java-8-openjdk-amd64/bin/java  -Xmx2048m  -cp  /home/sajjad/Desktop/astor-master/./lib/jtestex-0.0.1.jar:/home/sajjad/Desktop/astor-master/./outputMutation/AstorMain-math71/bin/variant-449/:/home/sajjad/Desktop/astor-master/./examples/libs/junit-4.4.jar:/home/sajjad/Desktop/astor-master/./outputMutation/AstorMain-math71/bin/default/:/home/sajjad/Desktop/astor-master/astor.jar:  JUnitExternalExecutor  org.apache.commons.math.ode.nonstiff.ClassicalRungeKuttaIntegratorTest org.apache.commons.math.ode.nonstiff.DormandPrince853IntegratorTest
+[DEBUG] fr.inria.astor.core.validation.executors.JUnitExecutorProcess.execute(JUnitExecutorProcess.java:77) - Execution time 0 seconds
+[DEBUG] fr.inria.astor.core.validation.executors.JUnitExecutorProcess.execute(JUnitExecutorProcess.java:80) - Running Exit Value

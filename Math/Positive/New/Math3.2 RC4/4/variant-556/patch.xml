@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><patch><operation generation="6" line="132" location="org.apache.commons.math.analysis.solvers.BrentSolver" type="InsertAfterOp"><original>if ((yInitial * yMax) &lt; 0) {
+	return solve(f, initial, yInitial, max, yMax, initial, yInitial);
+} </original><modified scope="PACKAGE">verifyBracketing(min, max, f)</modified></operation></patch>
